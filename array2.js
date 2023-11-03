@@ -40,3 +40,13 @@ function showDom(element, arr){
     }
 }
 showDom ("array2", juegos);
+
+
+// Recorrer objeto con For Each
+function print(item){
+    console.log(item)
+}
+juegos.forEach(print)
+
+//Similar
+// juegos.forEach((item)=>console.log(item));
