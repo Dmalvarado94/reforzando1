@@ -55,7 +55,7 @@ const daws = ["FL", "Live", "Pr"];
 console.log(daws.indexOf("FL"));    // 0 
 console.log(daws.indexOf("Itunes"));  // -1
 
-const daws2 = daws.slice(0,2);  // Seguimos practicando el slice.  (Parte de POS 0, para en la 2. Elimina la POS 2 "Pr")
+const daws2 = daws.slice(0,2);  // Slice (Parte de POS 0, para en la 2. Elimina la POS 2 "Pr")
 showDom("array2", daws2);
 
 // fill --> fill transforma todos los elementos del array en lo que tu indiques.

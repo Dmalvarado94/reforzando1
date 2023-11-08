@@ -32,9 +32,18 @@ console.log(nombreDest, edadDest, hobbieDest, calleDest, postal);
 let newArr = [nombreDest, edadDest, hobbieDest, "direccion :",{calleDest, postal}];
 console.log(newArr)
 
-// Resolviendo como función
+// Destructuring del objeto como función 
 
 function getFullName({nombre, edad, direccion}){
     return `${nombre} ${edad} ${direccion.calle}`
 }
 console.log(getFullName(persona));
+
+
+// Otra Destructuring con función 
+
+function getSalary(){
+    return [970,1000,1800,2800];
+}
+let [salario1,salario2,salario3,salario4] = getSalary();
+console.log(salario1,salario2,salario3,salario4)
