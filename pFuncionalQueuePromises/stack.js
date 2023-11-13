@@ -14,10 +14,15 @@ function tercero(valor) {
 }
 console.log(primero(10));   // R:40
 
-
-
     // Podemos intencionar un error con la siguiente sentencia arriba de un return
     //throw Error('explosion');
 
     // Otro elemento que se usa en este tipo de funciones, este indica que va pasando en el momento que lo pongas.
     // console.trace();
+
+    // version funcion de flecha se vería así:
+// const primero = (valor) => segundo(valor + 10);
+// const segundo = (valor) => tercero(valor + 10);
+// const tercero = (valor) => valor + 10;
+
+// console.log(primero(10));
