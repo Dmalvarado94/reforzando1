@@ -1,4 +1,4 @@
-Tareas:  (Estos códigos deben ser ejecutados en la consola del HTML directo)
+Tarea; A partir del archivo index.html
 
 Crea 3 parrafos con JS (<p>)
 
